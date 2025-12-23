@@ -1,17 +1,13 @@
+# ============================================================================
+# AUTO-GENERATED DRIFT FIX
+# ============================================================================
+# Resource: Service/drift-test/test-service
+# Severity: critical
+# Generated: 2025-12-23T12:50:27.359959Z
+# ============================================================================
+
 apiVersion: v1
 kind: Service
 metadata:
   name: test-service
   namespace: drift-test
-  labels:
-    app: test-app
-spec:
-  type: ClusterIP
-  selector:
-    app: test-app
-  ports:
-  - name: http
-    port: 80
-    targetPort: 80
-    protocol: TCP
-  sessionAffinity: None
