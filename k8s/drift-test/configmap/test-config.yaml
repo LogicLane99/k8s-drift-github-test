@@ -1,0 +1,15 @@
+# ============================================================================
+# AUTO-GENERATED DRIFT FIX
+# ============================================================================
+# Resource: ConfigMap/drift-test/test-config
+# Severity: critical
+# Generated: 2025-12-23T15:34:42.761883Z
+# 
+# ⚠️  IMPORTANT: Review all changes before merging to production
+# ============================================================================
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+  namespace: drift-test
