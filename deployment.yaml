@@ -1,47 +1,15 @@
+# ============================================================================
+# AUTO-GENERATED DRIFT FIX
+# ============================================================================
+# Resource: Deployment/drift-test/test-app
+# Severity: critical
+# Generated: 2025-12-23T12:55:13.127063Z
+# 
+# ⚠️  IMPORTANT: Review all changes before merging to production
+# ============================================================================
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: test-app
   namespace: drift-test
-  labels:
-    app: test-app
-    version: v1
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: test-app
-  template:
-    metadata:
-      labels:
-        app: test-app
-        version: v1
-    spec:
-      containers:
-      - name: nginx
-        image: nginx:1.21.0
-        ports:
-        - containerPort: 80
-          name: http
-        env:
-        - name: ENV
-          value: "production"
-        - name: LOG_LEVEL
-          value: "info"
-        resources:
-          requests:
-            cpu: 100m
-            memory: 128Mi
-          limits:
-            cpu: 200m
-            memory: 256Mi
-        livenessProbe:
-          httpGet:
-            path: /
-            port: 80
-          initialDelaySeconds: 10
-        readinessProbe:
-          httpGet:
-            path: /
-            port: 80
-          initialDelaySeconds: 5

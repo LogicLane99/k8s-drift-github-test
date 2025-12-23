@@ -1,15 +1,15 @@
+# ============================================================================
+# AUTO-GENERATED DRIFT FIX
+# ============================================================================
+# Resource: ConfigMap/drift-test/test-config
+# Severity: critical
+# Generated: 2025-12-23T12:55:13.126657Z
+# 
+# ⚠️  IMPORTANT: Review all changes before merging to production
+# ============================================================================
+
 apiVersion: v1
 kind: ConfigMap
 metadata:
   name: test-config
   namespace: drift-test
-  labels:
-    app: test-app
-data:
-  app.conf: |
-    server {
-      listen 80;
-      server_name localhost;
-    }
-  database.url: "postgres://localhost:5432/testdb"
-  cache.enabled: "true"
