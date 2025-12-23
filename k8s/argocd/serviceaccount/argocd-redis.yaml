@@ -1,15 +1,15 @@
 # ============================================================================
 # AUTO-GENERATED DRIFT FIX
 # ============================================================================
-# Resource: Deployment/drift-test/test-app
-# Severity: critical
-# Generated: 2025-12-23T16:03:03.522014Z
+# Resource: ServiceAccount/argocd/argocd-redis
+# Severity: low
+# Generated: 2025-12-23T16:03:03.521554Z
 # 
 # ⚠️  IMPORTANT: Review all changes before merging to production
 # ============================================================================
 
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: ServiceAccount
 metadata:
-  name: test-app
-  namespace: drift-test
+  name: argocd-redis
+  namespace: argocd
