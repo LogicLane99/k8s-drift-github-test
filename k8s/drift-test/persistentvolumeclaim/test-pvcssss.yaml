@@ -1,15 +1,15 @@
 # ============================================================================
 # AUTO-GENERATED DRIFT FIX
 # ============================================================================
-# Resource: ConfigMap/drift-test/test-config
+# Resource: PersistentVolumeClaim/drift-test/test-pvcssss
 # Severity: critical
-# Generated: 2025-12-30T12:44:46.916702Z
+# Generated: 2025-12-30T12:44:46.917244Z
 # 
 # ⚠️  IMPORTANT: Review all changes before merging to production
 # ============================================================================
 
 apiVersion: v1
-kind: ConfigMap
+kind: PersistentVolumeClaim
 metadata:
-  name: test-config
+  name: test-pvcssss
   namespace: drift-test
