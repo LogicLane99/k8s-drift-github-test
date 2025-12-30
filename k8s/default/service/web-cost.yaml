@@ -1,0 +1,15 @@
+# ============================================================================
+# AUTO-GENERATED DRIFT FIX
+# ============================================================================
+# Resource: Service/default/web-cost
+# Severity: critical
+# Generated: 2025-12-30T12:30:24.064483Z
+# 
+# ⚠️  IMPORTANT: Review all changes before merging to production
+# ============================================================================
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-cost
+  namespace: default
