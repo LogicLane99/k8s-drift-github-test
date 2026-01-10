@@ -1,15 +1,15 @@
 # ============================================================================
 # AUTO-GENERATED DRIFT FIX
 # ============================================================================
-# Resource: ConfigMap/drift-test/test-config
+# Resource: CronJob/drift-test/costly-compliance-fail
 # Severity: critical
-# Generated: 2026-01-10T09:45:21.369336Z
+# Generated: 2026-01-10T09:45:21.370145Z
 # 
 # ⚠️  IMPORTANT: Review all changes before merging to production
 # ============================================================================
 
 apiVersion: v1
-kind: ConfigMap
+kind: CronJob
 metadata:
-  name: test-config
+  name: costly-compliance-fail
   namespace: drift-test
