@@ -1,15 +1,15 @@
 # ============================================================================
 # AUTO-GENERATED DRIFT FIX
 # ============================================================================
-# Resource: ConfigMap/drift-test/test-config
-# Severity: critical
-# Generated: 2026-01-10T09:45:21.369336Z
+# Resource: NetworkPolicy/argocd/argocd-repo-server-network-policy
+# Severity: high
+# Generated: 2026-01-10T09:45:21.397759Z
 # 
 # ⚠️  IMPORTANT: Review all changes before merging to production
 # ============================================================================
 
-apiVersion: v1
-kind: ConfigMap
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
 metadata:
-  name: test-config
-  namespace: drift-test
+  name: argocd-repo-server-network-policy
+  namespace: argocd

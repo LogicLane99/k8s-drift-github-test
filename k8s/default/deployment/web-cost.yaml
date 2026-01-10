@@ -1,15 +1,15 @@
 # ============================================================================
 # AUTO-GENERATED DRIFT FIX
 # ============================================================================
-# Resource: ConfigMap/drift-test/test-config
+# Resource: Service/default/web-cost
 # Severity: critical
-# Generated: 2026-01-10T09:45:21.369336Z
+# Generated: 2026-01-10T09:45:21.368798Z
 # 
 # ⚠️  IMPORTANT: Review all changes before merging to production
 # ============================================================================
 
 apiVersion: v1
-kind: ConfigMap
+kind: Service
 metadata:
-  name: test-config
-  namespace: drift-test
+  name: web-cost
+  namespace: default
